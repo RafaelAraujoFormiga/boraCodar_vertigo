@@ -6,7 +6,7 @@ const Login = () => {
         <MainStyle>
             <div className="Container">
                 <header className="HeaderWrapper">
-                    <img className="Logo" src="src/assets/logo.svg" alt="logo" />
+                    <img className="Logo" src="../../assets/logo.svg" alt="logo" />
                 </header>
                 <FormLogin />
             </div>
