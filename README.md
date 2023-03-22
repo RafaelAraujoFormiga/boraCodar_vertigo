@@ -2,7 +2,11 @@
 
 
 ## Descrição 
-<p>Construção de uma página de login</p>
+<p>O objetivo do desafio proposto pela
+
+[<i>RocketSeat</i>](https://www.rocketseat.com.br/)
+ : construção de uma tela de login</p>
+
 
 ## Layout da aplicação
 <img src="src/assets/project.svg"/>
