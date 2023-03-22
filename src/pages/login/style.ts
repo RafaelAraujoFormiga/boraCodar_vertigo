@@ -1,4 +1,5 @@
 import styled from "styled-components"
+import imageRetangle from "../../assets/rectangle.svg"
 
 
 export const MainStyle = styled.main`
@@ -27,7 +28,7 @@ export const MainStyle = styled.main`
         padding: 0.5rem 2rem;
     }
     .ContainerImg{
-        background: url("src/assets/rectangle.svg") no-repeat center/cover;
+        background: url(${imageRetangle}) no-repeat center/cover;
         width: 50%;
         min-height: 100vh;
         z-index: 0;
@@ -37,7 +38,7 @@ export const MainStyle = styled.main`
             z-index: 999;
             width: 100%;
             background-image: linear-gradient(180deg,rgba(0,0,0,0.29) 0%, #000000 100%),
-            url("src/assets/rectangle.svg");
+            url(${imageRetangle});
             background-repeat: no-repeat;
             background-size: cover;
             background-position: center;

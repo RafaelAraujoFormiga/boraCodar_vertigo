@@ -2,6 +2,8 @@ import { InputStyle, Error, HideShow, Navigate } from "./style"
 import { UseFormRegister, FieldError } from "react-hook-form";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import Show from "../../assets/show.svg"
+import Hide from "../../assets/hide.svg"
 
 interface IProps {
     id?: string;
@@ -42,7 +44,7 @@ const Input = ({
             />
             {id === "password" ?
                 <HideShow
-                    src={show ? "src/assets/show.svg" : "src/assets/hide.svg"}
+                    src={show ? Show : Hide}
                     alt=""
                     onClick={() => setShow(!show)}
                 /> : null
